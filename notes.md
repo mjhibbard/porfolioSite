@@ -25,7 +25,12 @@ Skills Section:
 Project List:
     *  HTML/CSS
     *  HTML/CSS
-    * 
+    *  HTML/CSS/D3
+    *  JS
+    *  JS
+    *  SCSS/HTML
+    *  Dealer's Choice
+    *  Dealer's Choice
 
 Current Project List:
     *  Patatap Clone Fancy-Fancy
@@ -34,4 +39,4 @@ Current Project List:
     *  Blog App With DB
     *  YelpCamp Site with DB, Node, Auth, Splash
     *  The Grove Community Church Website in the works
-    *
+    *  
