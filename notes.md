@@ -19,7 +19,7 @@ About Section:
     *  Testimonials
 
 Skills Section:
-    *  Whats your skills are
+    *  What your skills are
     *  Resume link at bottom
 
 Project List:

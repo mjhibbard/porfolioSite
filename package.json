@@ -1,0 +1,22 @@
+{
+  "name": "porfoliosite",
+  "version": "1.0.0",
+  "description": "Resume site for employment search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjhibbard/porfolioSite.git"
+  },
+  "author": "Michael Hibbard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjhibbard/porfolioSite/issues"
+  },
+  "homepage": "https://github.com/mjhibbard/porfolioSite#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
