@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 //App Config
-app.set("view engine", "html");
+app.set("view engine", "ejs");
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(__dirname + '/views'));
 
@@ -11,12 +11,12 @@ app.get("/", function (req, res){
 });
 
 app.get("/about", function(req, res){
-    res.send("You've made it to the about route!");
+    res.render("about");
 });
 
 app.get("/contact", function(req, res){
-    res.send("Contact me via instant mind waves!")
-})
+    res.render("contact");
+});
 
 app.get("/resume", function(req, res){
     res.send("You want my resume? Thanks a TON!!!");
