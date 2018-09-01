@@ -1,7 +1,7 @@
 Portfolio
     *1  Single page site
     *2  8 or so projects
-    *3 Color Scheme: Parchment look? black, off-white, grey sepia toned photo
+    *3 Color Scheme: Parchment look? black, off-white, grey sepia toned photo background in mathematics and showcase it in bg img
 
 Styles:
     *1  Work
@@ -40,3 +40,11 @@ Current Project List:
     *  YelpCamp Site with DB, Node, Auth, Splash
     *  The Grove Community Church Website in the works
     *  
+
+Before Next meeting:
+    *  Portfolio done
+    *  Grove Site; good idea of final look
+    *  Update Resume'
+
+    2hours of work a day 
+    
