@@ -1,21 +1,60 @@
 body {
     font-family: 'Merienda', cursive;
-    /* font-family: 'Source Serif Pro', serif; */
-    /* background-image: url("../images/mathboard.jpg"); */
+    background-color: #fff;
+    color: white;
+}
+
+section {
+    position: relative;
+    height: 100%;
+}
+
+.second {
+    background-color: lightslategrey;
+    padding-top: 10vh;
+}
+
+.third {
+    background-color: lightskyblue;
+    padding-top: 10vh;
+}
+
+.fourth {
+    background-color: lightblue;
+    padding-top: 10vh;
 }
 
 #hero{
     background-color: transparent;
-    text-align: center;
+    /* text-align: center; */
+    padding-top: 30vh;
+    z-index: 1;
+    position: relative;
+    height: 100%;
 }
 
-/* .odd-section{
-    width: 100%;
-    height: 100%;
-    background-color: slateblue;
-} */
-
 .image{
-    /* position: absolute; */
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+}
 
+nav.navbar.sticky-top.navbar-expand-lg.navbar-dark.bg-dark {
+    opacity: .5;
+}
+
+nav.navbar.sticky-top.navbar-expand-lg.navbar-dark.bg-dark:hover {
+    opacity: .9;
+}
+
+.footer {
+    background-color: darkolivegreen;
+}
+a i {
+    text-decoration: none;
 }
