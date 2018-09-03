@@ -1,36 +1,38 @@
 body {
     font-family: 'Merienda', cursive;
     background-color: #fff;
-    color: white;
+    /* color: white; */
 }
 
 section {
     position: relative;
     height: 100%;
+    color: #212529;
 }
 
 .second {
-    background-color: lightslategrey;
+    /* background-color: lightslategrey; */
     padding-top: 10vh;
 }
 
 .third {
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
     padding-top: 10vh;
 }
 
 .fourth {
-    background-color: lightblue;
+    /* background-color: lightblue; */
     padding-top: 10vh;
 }
 
 #hero{
-    background-color: transparent;
+    background-color: rgba(245, 245, 245, 0.1);
     /* text-align: center; */
     padding-top: 30vh;
     z-index: 1;
     position: relative;
     height: 100%;
+    color: white;
 }
 
 .image{
@@ -44,17 +46,36 @@ section {
     padding: 0;
 }
 
-nav.navbar.sticky-top.navbar-expand-lg.navbar-dark.bg-dark {
-    opacity: .5;
+.overlay:before {
+    position: absolute;
+    content:" ";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display: block;
+    z-index:0;
+    background-color: rgba(0,0,0,0.65);
 }
 
-nav.navbar.sticky-top.navbar-expand-lg.navbar-dark.bg-dark:hover {
+nav.navbar {
+    background-color: whitesmoke;
+    opacity: .75;
+}
+
+nav.navbar:hover {
     opacity: .9;
 }
 
 .footer {
-    background-color: darkolivegreen;
+    background-color: rgba(0,0,0,0.65);
 }
-a i {
+
+.footer p {
+    font-size: .75rem;
+    color: white;
+}
+
+.connect a i {
     text-decoration: none;
 }
