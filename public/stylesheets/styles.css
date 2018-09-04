@@ -1,7 +1,10 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Merienda', cursive;
     background-color: #fff;
-    /* color: white; */
 }
 
 section {
@@ -60,11 +63,11 @@ section {
 
 nav.navbar {
     background-color: whitesmoke;
-    opacity: .75;
+    opacity: .88;
 }
 
 nav.navbar:hover {
-    opacity: .9;
+    opacity: .95;
 }
 
 .footer {
@@ -78,4 +81,10 @@ nav.navbar:hover {
 
 .connect a i {
     text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    #hero {
+        padding-top: 10vh;
+    }
 }

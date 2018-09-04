@@ -19,7 +19,7 @@ app.get("/contact", function(req, res){
 });
 
 app.get("/resume", function(req, res){
-    res.send("You want my resume? Thanks a TON!!!");
+    res.sendFile('public/documents/Hibbard WebDev Resume.pdf', { root : __dirname});
 });
 
 app.listen(3000, function(){
