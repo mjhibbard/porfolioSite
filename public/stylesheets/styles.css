@@ -83,8 +83,31 @@ nav.navbar:hover {
     text-decoration: none;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) {
     #hero {
         padding-top: 10vh;
     }
 }
+
+@media (min-width: 768px) {
+    #hero {
+        padding-top: 15vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    #hero {
+        padding-top: 30vh;
+    }
+}
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
