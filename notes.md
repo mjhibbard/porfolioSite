@@ -48,3 +48,19 @@ Before Next meeting:
 
     2hours of work a day 
     
+
+    meetups:
+    next tuesday. 'front-end pdx'
+    evening 6:30pm
+
+    notes for website:
+    section to margin/padding make the white space on the sides maybe a soft grey.... done
+    maybe adjust padding around section text
+
+    break between sections --> clippy some kind of angular break... maybe an image little bit of color break one angled off one direction between sections and the other break opposite the other color scheme maybe a crimson red or something of the same warmer tone with the greys in mind
+
+    link icons in footer should have some hover effect-- get bigger, or 'lift' and/or change color
+
+    fuzzco job listing portland/charleston apply
+    dealerspike-- keep an eye on them they rotate through web devs
+
