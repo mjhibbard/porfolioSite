@@ -19,38 +19,21 @@ section {
     border-radius: 10px;
 }
 
-.shadow {
-    box-shadow: 0px 20px 40px rgba(0,0,0,0.5),
-    0px 15px 10px rgba(0,0,0,0.2);
-
-}
-
 .white-back {
     background-color: #fff;
 }
 
-.second {
-    /* background-color: lightslategrey; */
-    padding-top: 10vh;
+.second, .third, .fourth {
+    padding-top: 11vh;
     
-}
-
-.third {
-    /* background-color: lightskyblue; */
-    padding-top: 10vh;
-}
-
-.fourth {
-    /* background-color: lightblue; */
-    padding-top: 10vh;
 }
 
 #hero{
     background-color: rgba(245, 245, 245, 0.1);
     /* text-align: center; */
     padding-top: 30vh;
-    z-index: 1;
     position: relative;
+    z-index: 1;
     height: 100%;
     color: white;
 }
@@ -100,6 +83,10 @@ nav.navbar:hover {
     text-decoration: none;
 }
 
+.connect {
+    transition: all .2s;
+}
+
 .connect:link,
 .connect:visited {
     text-decoration: none;
@@ -107,14 +94,14 @@ nav.navbar:hover {
 
 .connect:hover {
     transition: all .4s;
-    transform: translateY(-3px);
-    text-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    transform: translateY(-5px);
+    text-shadow: 0 15px 25px rgba(0,0,0,0.4);
 }
 
 .connect:active {
     transition: all .4s;
-    transform: translateY(-1px);
-    text-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-2px);
+    text-shadow: 0 7px 17px rgba(0,0,0,0.4);
 }
 
 @media (min-width: 576px) {
