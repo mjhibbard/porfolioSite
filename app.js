@@ -1,8 +1,9 @@
-const http      = require("http");
+const http = require('http');
 const express   = require("express");
 const path      = require("path");
-const PORT      = 3000;
-const hostname  = '127.0.0.1';
+const hostname = '127.0.0.1';
+const PORT = 3000;
+const server = http.createServer(express());
 
 express()
     //App Config
@@ -16,6 +17,6 @@ express()
     .get('/contact', (req, res) => res.render('contact'))
     .get('/resume', (req, res) => res.sendFile('public/documents/Hibbard WebDev Resume.pdf', { root : __dirname}))
 
-    .listen(PORT, hostname, (req, res) => {
-        console.log(`Mike is Listening at http://${hostname}:${PORT}/`)
+    .listen(PORT, hostname, () => {
+    console.log(`Server running at http://${hostname}:${PORT}/`);
     })
