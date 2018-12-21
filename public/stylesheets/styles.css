@@ -24,8 +24,8 @@ section {
 }
 
 .second, .third, .fourth {
-    padding-top: 11vh;
-    
+    padding-top: 20vw;
+    margin-top: -17vw;    
 }
 
 #hero{
