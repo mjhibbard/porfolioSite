@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Merienda', cursive;
-    font-size: 1.25vw;
+    font-size: 1.5vw;
     background-color: #dbdbdb;
 }
 
@@ -93,6 +93,10 @@ section {
     background-color: rgba(0,0,0,0.65);
 }
 
+.nav-link {
+    padding: 0.5vw 1vw;
+}
+
 nav.navbar {
     background-color: whitesmoke;
     opacity: .88;
@@ -113,6 +117,7 @@ color: #242A2A;
 
 .footer {
     background-color: rgba(0,0,0,0.65);
+    box-shadow: 0 100vh 0 100vh rgba(0,0,0,0.65);
 }
 
 .footer p {
@@ -193,9 +198,10 @@ color: #242A2A;
 }
 .testimonial__card-img {
     height: 15vw;
-    background: center center/cover no-repeat;
-    width: 100%;
-    border-radius: 50%;
+    background: url("../images/headshot-unsplash.jpg") center center/cover no-repeat;
+    width: 75%;
+    border-radius: 100%;
+    margin: auto;
 }
 .testimonial__card-copy-wrap {
     width: 100%;
