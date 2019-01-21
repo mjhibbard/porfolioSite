@@ -206,8 +206,8 @@ color: #242A2A;
 
 
 @media (min-width: 576px) {
-    /*#hero {
-         padding-top: 10vh;
+    /* #hero {
+        padding-top: 10vh;
     } */
     .media {
         flex-direction: column;
@@ -221,7 +221,7 @@ color: #242A2A;
 }
 
 @media (min-width: 768px) {
-   /*  #hero {
+    /* #hero {
         padding-top: 15vh;
     } */
     .media {
