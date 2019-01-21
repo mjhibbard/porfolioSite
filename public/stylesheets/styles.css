@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Merienda', cursive;
-    font-size: 1.125rem;
+    font-size: 1.25vw;
     background-color: #dbdbdb;
 }
 
@@ -162,17 +162,20 @@ color: #242A2A;
     display: flex;
     justify-content: center;
     margin: 4vw 0;
-    width: 60%;
+    width: 100%;
     padding: 2%;
     box-shadow: 0 1vw 1vw 0 #dbdbdb;
 }
 .about-card__img {
-    height: 10vw;
-    background: center center/cover no-repeat;
+    display: inherit;
+    background-repeat: no-repeat;
     width: 40%;
 }
 .about-card__copy {
+    display: inherit;
+    width: 60%;
     font-size: 1.5vw;
+    padding: 2%;
 }
 
 /* Testimoninal styles */
