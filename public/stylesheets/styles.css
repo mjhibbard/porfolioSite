@@ -157,9 +157,9 @@ color: #242A2A;
 }
 
 @media (min-width: 576px) {
-    #hero {
-        /* padding-top: 10vh; */
-    }
+    /* #hero {
+        padding-top: 10vh;
+    } */
     .media {
         flex-direction: column;
     }
@@ -172,9 +172,9 @@ color: #242A2A;
 }
 
 @media (min-width: 768px) {
-    #hero {
-        /* padding-top: 15vh; */
-    }
+    /* #hero {
+        padding-top: 15vh;
+    } */
     .media {
         flex-direction: row;
     }
@@ -190,9 +190,9 @@ color: #242A2A;
 }
 
 @media (min-width: 1200px) {
-    #hero {
-        /* padding-top: 30vh; */
-    }
+    /* #hero {
+        padding-top: 30vh;
+    } */
 }
 /* Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
