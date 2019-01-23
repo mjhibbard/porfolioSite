@@ -1,12 +1,12 @@
 <% include ./partials/header %>
 
-<section class="splash">
+<section class="splash" id="contact">
         <div class="container">
-            <div class="jumbotron" id="hero">
-                <h1 class="display-2">Michael Hibbard</h1>
+            <div class="jumbotron hero">
+                <h1 class="display-1">Michael Hibbard</h1>
                 <p class="lead">Full Stack Web Developer. Always learning, looking to improve.</p>
                 <hr class="my-4">
-                <p>Thanks for visiting my site and taking a peak at my work!</p>
+                <p class="hero-sub-header">Thanks for visiting my site and taking a peak at my work!</p>
             </div>
         </div>
         <div class="image overlay">
@@ -14,12 +14,31 @@
         </div>
     </section>
     
-    <section class="second" id="about">
+    <section class="second">
         <div class="container white-back shadow">
             <div class="p-3 mb-5">
-                <h5>Contact Me</h5>
-                <p class="lead">Here is my contact information:</p>
-                
+                <h5 class="section-title">Contact Me</h5>
+                <h5 class="sub-header">Here is my contact information:</h5>
+                <li class="media">
+                    <img class="img-thumbnail img-profile" src="images/contact-me.jpg" alt="Mike Hibbard Again">
+                    <div class="media-body">
+                        <p class="media-card-copy reduced-line-spacing">exports.contactMe = async function(req, res, next) { <br />
+                            <p class="media-card-copy tab reduced-line-spacing">try {</p>
+                                <p class="media-card-copy tab reduced-line-spacing more-tab">let email = req.emailAddress;</p>
+                                <p class="media-card-copy tab reduced-line-spacing more-tab">let gratatude = await thanksForInterest.email;</p>
+                                <p class="media-card-copy tab reduced-line-spacing more-tab">res.send({email: <a href="mailto:mike.hibbard.dev@gmail.com">mike.hibbard.dev@gmail.com</a>});</p>
+                                <p class="media-card-copy tab reduced-line-spacing more-tab">return next();</p>
+                                <p class="media-card-copy tab reduced-line-spacing more-tab">} catch(err) {</p>
+                                    <p class="media-card-copy reduced-line-spacing even-more-tab">if(wantedPhone){
+                                        <p class="media-card-copy even-more-tab reduced-line-spacing">res.send({phone: '<em class="bold green">541.519.8984</em>'});</p>
+                                        <p class="media-card-copy even-more-tab reduced-line-spacing">} else {
+                                                <p class="media-card-copy extra-more-tab reduced-line-spacing">let apology = req.error + err;</p>
+                                                <p class="media-card-copy extra-more-tab reduced-line-spacing">return next(apology);</p>
+                                            <p class="media-card-copy even-more-tab reduced-line-spacing">}</p>
+                                        <p class="media-card-copy tab reduced-line-spacing">}</p>
+                            <p class="media-card-copy reduced-line-spacing">}</p>
+                    </div>
+                </li>
             </div>
         </div>
     </section>
