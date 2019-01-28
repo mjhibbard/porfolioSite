@@ -265,6 +265,19 @@ color: #242A2A;
 .green {
     color: #009999;
 }
+.command-line {
+    width: 100%;
+    margin: 3vw;
+    background: #1a1a1a;
+    color: white;
+    padding: 2vw;
+    border: 1vw solid lightgray;
+    box-shadow: 0vw 0vw 2vw 0vw black;
+}
+.consolas {
+    font-family: 'Consolas', Courier, monospace;
+}
+
 
 
 @media (min-width: 576px) {
@@ -273,6 +286,9 @@ color: #242A2A;
     } */
     .media {
         flex-direction: column;
+    }
+    .media-card-copy {
+        font-size: 2.25vw;
     }
     .section-title {
         font-size: 5vw;
@@ -301,8 +317,17 @@ color: #242A2A;
     .media {
         flex-direction: row;
     }
+    .keep-column {
+        flex-direction: column;
+    }
+    .command-line {
+        width: 75%;
+    }
     .img-thumbnail {
         max-width: 45%;
+    }
+    .img-profile {
+        max-width: 60%;
     }
     .sub-header {
         font-size: 3vw;
@@ -340,6 +365,9 @@ color: #242A2A;
 @media (min-width: 992px) {
     .navbar-link__copy {
         font-size: 1.75vw;
+    }
+    .media-card-copy {
+        font-size: 1.25vw;
     }
 }
 @media (min-width: 1200px) {

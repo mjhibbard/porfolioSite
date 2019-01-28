@@ -19,17 +19,17 @@
             <div class="p-3 mb-5">
                 <h5 class="section-title">Contact Me</h5>
                 <h5 class="sub-header">Here is my contact information:</h5>
-                <li class="media">
+                <li class="keep-column media">
                     <img class="img-thumbnail img-profile" src="images/contact-me.jpg" alt="Mike Hibbard Again">
-                    <div class="media-body">
+                    <div class="media-body command-line consolas">
                         <p class="media-card-copy reduced-line-spacing">exports.contactMe = async function(req, res, next) { <br />
                             <p class="media-card-copy tab reduced-line-spacing">try {</p>
                                 <p class="media-card-copy tab reduced-line-spacing more-tab">let email = req.emailAddress;</p>
-                                <p class="media-card-copy tab reduced-line-spacing more-tab">let gratatude = await thanksForInterest.email;</p>
+                                <p class="media-card-copy tab reduced-line-spacing more-tab">let gratitude = await thanksForInterest.email;</p>
                                 <p class="media-card-copy tab reduced-line-spacing more-tab">res.send({email: <a href="mailto:mike.hibbard.dev@gmail.com">mike.hibbard.dev@gmail.com</a>});</p>
-                                <p class="media-card-copy tab reduced-line-spacing more-tab">return next();</p>
+                                <p class="media-card-copy tab reduced-line-spacing more-tab">return next(gratitude);</p>
                                 <p class="media-card-copy tab reduced-line-spacing more-tab">} catch(err) {</p>
-                                    <p class="media-card-copy reduced-line-spacing even-more-tab">if(wantedPhone){
+                                    <p class="media-card-copy reduced-line-spacing even-more-tab">if(wantedPhone) {
                                         <p class="media-card-copy even-more-tab reduced-line-spacing">res.send({phone: '<em class="bold green">541.519.8984</em>'});</p>
                                         <p class="media-card-copy even-more-tab reduced-line-spacing">} else {
                                                 <p class="media-card-copy extra-more-tab reduced-line-spacing">let apology = req.error + err;</p>
