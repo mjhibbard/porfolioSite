@@ -16,11 +16,11 @@
 
 <section class="second" id="about">
     <div class="container white-back shadow">
-        <div class="p-3 mb-5">
+        <div class="section__wrap">
             <h4 class="section-title">Who is Michael Hibbard?</h4>
             <!-- <p class="lead">Who you are, What you do, Hobbies</p> -->
             <ul class="list-unstyled">
-                <li class="media">
+                <li class="media media--who">
                     <img class="img-thumbnail img-profile" src="../images/mike-personality2.jpg" alt="Mike Hibbard">
                     <div class="media-body">
                         <p class="media-card-copy">
@@ -44,7 +44,7 @@
 
 <section class="third" id="work">
     <div class="container white-back shadow">
-        <div class="p-3 mb-5">
+        <div class="section__wrap">
             <h4 class="section-title">Projects</h4>
             
             <ul class="list-unstyled">
@@ -95,7 +95,7 @@
           
             <div class="third" id="testimonials">
                 <h4 class="section-title">Testimonials</h4>
-                <p class="lead">Check out what people are saying about this Full Stack Web Developer, Michael Hibbard:</p>
+                <p class="section-subtitle">Check out what people are saying about this Full Stack Web Developer, Michael Hibbard:</p>
                 <div class="testimonial-cards__wrapper">
                     <div class="testimonial-card__wrap">
                         <div class="testimonial__card-img testimonial__card-img-1"></div>
@@ -127,32 +127,25 @@
 
 <section class="fourth" id="skills">
     <div class="container white-back shadow">
-        <div class="p-3 mb-5">
+        <div class="section__wrap">
             <h4 class="section-title">Skills Section</h4>
-            <p class="lead">Take a peek at what my skills are:</p>
+            <p class="section-subtitle section-subtitle__margin">Take a peek at what my skills are:</p>
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item skills-table-tabs__copy">
-                    <a class="nav-link active" id="progLan-tab" data-toggle="tab" href="#progLan" role="tab" aria-controls="progLan" aria-selected="true">Programming Languages</a>
-                </li>
-                <li class="nav-item skills-table-tabs__copy">
-                    <a class="nav-link" id="hardSkill-tab" data-toggle="tab" href="#hardSkill" role="tab" aria-controls="hardSkill" aria-selected="false">Hard Skills</a>
+                    <a class="nav-link active" id="hardSkill-tab" data-toggle="tab" href="#hardSkill" role="tab" aria-controls="hardSkill" aria-selected="true">Hard Skills</a>
                 </li>
                 <li class="nav-item skills-table-tabs__copy">
                     <a class="nav-link" id="softSkill-tab" data-toggle="tab" href="#softSkill" role="tab" aria-controls="softSkill" aria-selected="false">Soft Skills</a>
                 </li>
+                <li class="nav-item skills-table-tabs__copy">
+                    <a class="nav-link" id="progLan-tab" data-toggle="tab" href="#progLan" role="tab" aria-controls="progLan" aria-selected="false">Programming Languages</a>
+                </li>
             </ul>
 
             <div class="tab-content">
-                <div class="tab-pane fade show active" id="progLan" role="tabpanel" aria-labelledby="progLan-tab">
-                    <ul class="skills-table__copy">
-                        <li>JavaScript</li>
-                        <li>HTML5</li>
-                        <li>CSS</li>
-                        <li>Command Line</li>
-                    </ul>
-                </div>
-                <div class="tab-pane fade" id="hardSkill" role="tabpanel" aria-labelledby="hardSkill-tab">
+                
+                <div class="tab-pane fade show active" id="hardSkill" role="tabpanel" aria-labelledby="hardSkill-tab">
                     <div class="row">
                         <div class="col-md-4 col-6">
                             <ul class="skills-table__copy">
@@ -181,6 +174,15 @@
                                 <li>ES2017</li>
                             </ul>
                         </div>
+                        <div class="col-md-4 col-6">
+                            <ul class="skills-table__copy">
+                                <li>Wordpress</li>
+                                <li>React Native</li>
+                                <li>Flutter</li>
+                                <li>Gulp.js</li>
+                                <li>Optimization</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="tab-pane fade" id="softSkill" role="tabpanel" aria-labelledby="softSkill-tab">
@@ -192,6 +194,15 @@
                         <li>Perseverance</li>
                     </ul>
                 </div>
+                <div class="tab-pane fade" id="progLan" role="tabpanel" aria-labelledby="progLan-tab">
+                        <ul class="skills-table__copy">
+                            <li>JavaScript</li>
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>Command Line</li>
+                            <li>PHP</li>
+                        </ul>
+                    </div>
             </div>
 
             <hr class="my-4">
