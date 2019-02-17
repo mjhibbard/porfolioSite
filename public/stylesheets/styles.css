@@ -404,3 +404,11 @@ color: #242A2A;
         font-size: inherit;
     }
 }
+@media (min-width: 1485px) {
+    .media--who {
+        flex-direction: column;
+    }
+    .navbar-link__copy {
+        font-size: inherit;
+    }
+}
