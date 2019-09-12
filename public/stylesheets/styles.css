@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
 * {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Merienda', cursive;
+    font-family: 'Merienda', 'Merriweather', serif;
     font-size: 1.5vw;
     background-color: #dbdbdb;
 }
@@ -121,6 +123,7 @@ color: #242A2A;
 }
 
 .footer {
+    margin-top: 3vw;
     background-color: rgba(0,0,0,0.65);
     box-shadow: 0 100vh 0 100vh rgba(0,0,0,0.65);
 }
