@@ -4,7 +4,7 @@
   "description": "Resume site for employment search",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,9 @@
   "dependencies": {
     "animate.css": "^3.7.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0"
   }
 }

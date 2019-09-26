@@ -55,8 +55,7 @@ section {
 
 .hero {
     background-color: rgba(245, 245, 245, 0.1);
-    /* text-align: center; */
-    padding: 10vw 0 0;
+    padding: 10vw 0 3vw 0;
     position: relative;
     z-index: 1;
     height: 100%;
@@ -171,7 +170,8 @@ color: #242A2A;
 
 .section__wrap {
     margin: 2vw;
-    padding: 2vw;
+    padding: 2vw 2vw 3vw 2vw;
+
 }
 .section-subtitle {
     font-size: 3vw;
@@ -254,7 +254,19 @@ color: #242A2A;
 .skills-table-tabs__copy {
     font-size: 3.0vw;
 }
-
+.skills-section-img {
+    height: 8vw;
+    
+}
+.skill-medal__wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vw;
+}
+.skill-medal-img__wrap {
+    
+    align-self: center;
+}
 /* Contact page styles */
 .tab {
     text-indent: 5%;
@@ -331,6 +343,9 @@ color: #242A2A;
     .section-subtitle {
         font-size: 2.5vw;
     }
+    .skills-section-img {
+        height: 6vw;
+      }
 }
 
 @media (min-width: 768px) {
@@ -389,6 +404,9 @@ color: #242A2A;
     .section-subtitle {
         font-size: 2vw;
     }
+    .skills-section-img {
+        height: 8.5vw;
+      }
 }
 
 @media (min-width: 992px) {
@@ -401,11 +419,20 @@ color: #242A2A;
     .media--who {
         flex-direction: row;
     }
+    .skills-table-tabs__copy {
+        font-size: 2.25vw;
+    }
+    .skills-section-img {
+        height: 8vw;
+      }
 }
 @media (min-width: 1200px) {
     .navbar-link__copy {
         font-size: inherit;
     }
+    .skills-section-img {
+        height: 6vw;
+      }
 }
 @media (min-width: 1485px) {
     .media--who {
@@ -414,4 +441,10 @@ color: #242A2A;
     .navbar-link__copy {
         font-size: inherit;
     }
+    .skills-table-tabs__copy {
+        font-size: 2vw;
+    }
+    .skills-section-img {
+        height: 4vw;
+      }
 }

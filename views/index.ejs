@@ -47,16 +47,53 @@
         <div class="section__wrap">
             <h4 class="section-title">Skills</h4>
             <p class="section-subtitle section-subtitle__margin">Take a peek at what my skills are:</p>
+                <div class="skill-medal__wrap">
+
+                    <div class="skill-medal-img__wrap">
+                        <img src="../images/javascript.png" alt="JavaScript" class="skills-section-img">
+
+                    </div>
+                    <div class="skill-medal-img__wrap">
+                        <img src="../images/html5-image.png" alt="HTML5" class="skills-section-img">
+
+                    </div>
+                    
+                    <div class="skill-medal-img__wrap">
+                        <img src="../images/css3-image.png" alt="CSS3" class="skills-section-img">
+
+                    </div>
+                    <div class="skill-medal-img__wrap">
+                        <img src="../images/rest-api-image.png" alt="RESTful API" class="skills-section-img">
+                        
+                    </div>
+                    <div class="skill-medal-img__wrap">
+                        <img src="../images/react-image.png" alt="React.js" class="skills-section-img">
+                        
+                    </div>
+
+                    <div class="skill-medal-img__wrap">
+                        <img src="../images/vue-image.png" alt="Vue.js" class="skills-section-img">
+                        
+                    </div>
+                    <div class="skill-medal-img__wrap">
+                        <img src="../images/node-image.png" alt="Node.js" class="skills-section-img">
+
+                    </div>
+                </div>
+
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item skills-table-tabs__copy">
-                    <a class="nav-link active" id="hardSkill-tab" data-toggle="tab" href="#hardSkill" role="tab" aria-controls="hardSkill" aria-selected="true">Hard Skills</a>
+                    <a class="nav-link active" id="hardSkill-tab" data-toggle="tab" href="#hardSkill" role="tab" aria-controls="hardSkill" aria-selected="true">Aquired</a>
+                </li>
+                <li class="nav-item skills-table-tabs__copy">
+                    <a class="nav-link" id="learning-tab" data-toggle="tab" href="#learn" role="tab" aria-controls="learn" aria-selected="false">Aquiring</a>
                 </li>
                 <li class="nav-item skills-table-tabs__copy">
                     <a class="nav-link" id="softSkill-tab" data-toggle="tab" href="#softSkill" role="tab" aria-controls="softSkill" aria-selected="false">Soft Skills</a>
                 </li>
                 <li class="nav-item skills-table-tabs__copy">
-                    <a class="nav-link" id="progLan-tab" data-toggle="tab" href="#progLan" role="tab" aria-controls="progLan" aria-selected="false">Programming Languages</a>
+                    <a class="nav-link" id="progLan-tab" data-toggle="tab" href="#progLan" role="tab" aria-controls="progLan" aria-selected="false">Coding Languages</a>
                 </li>
             </ul>
 
@@ -66,38 +103,38 @@
                     <div class="row">
                         <div class="col-md-3 col-6">
                             <ul class="skills-table__copy">
+                                <li>ES6+/ES2017</li>
                                 <li>Express.js</li>
                                 <li>Node.js/NPM</li>
-                                <li>React.js</li>
-                                <li>Bootstrap</li>
-                                <li>jQuery</li>
+                                <li>APIs</li> 
+                                <li>MongoDB</li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-6">
                             <ul class="skills-table__copy">
-                                <li>APIs</li> 
-                                <li>MongoDB</li>
                                 <li>SCSS/SASS</li>
                                 <li>RESTful Routing</li>
                                 <li>AJAX</li>
+                                <li>React.js</li>
+                                <li>Vue.js</li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-6">
                             <ul class="skills-table__copy">
-                                <li>Vue.js</li>
+                                <li>Bootstrap</li>
+                                <li>jQuery</li>
                                 <li>EJS</li>
                                 <li>JSON/XML</li>
                                 <li>D3</li>
-                                <li>ES6+</li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-6">
                             <ul class="skills-table__copy">
                                 <li>Wordpress</li>
-                                <li>React Native</li>
-                                <li>Flutter</li>
+                                <li>Ionic</li>
                                 <li>Gulp.js</li>
                                 <li>Optimization</li>
+                                <li>Awesomeness</li>
                             </ul>
                         </div>
                     </div>
@@ -112,26 +149,35 @@
                     </ul>
                 </div>
                 <div class="tab-pane fade" id="progLan" role="tabpanel" aria-labelledby="progLan-tab">
-                        <ul class="skills-table__copy">
-                            <li>JavaScript</li>
-                            <li>PHP</li>
-                            <li>HTML5</li>
-                            <li>CSS</li>
-                            <li>Command Line</li>
-                        </ul>
-                    </div>
+                    <ul class="skills-table__copy">
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>Command Line/Linux</li>
+                        <li>PHP</li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="learn" role="tabpanel" aria-labelledby="learning-tab">
+                    <ul class="skills-table__copy">
+                        <li>Python 3</li>
+                        <li>React Native</li>
+                        <li>Flutter</li>
+                        <li>Angular JS</li>
+                        <li>Other Cool-looking Tech</li>
+                    </ul>
+                </div>
             </div>
 
-            <hr class="my-4">
+            <!-- <hr class="my-4"> -->
 
             <!-- <div>
                 <p>A little about the path I've taken with my skills to get me here in this present circumstance that is not laid out in the about section.</p>
             </div> -->
             
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-lg btn-secondary mb-3 animated infinite pulse slow" data-toggle="modal" data-target="#resumePane">
+            <!-- <button type="button" class="btn btn-lg btn-secondary mb-3 animated infinite pulse slow" data-toggle="modal" data-target="#resumePane">
                     Resum&eacute;
-            </button>
+            </button> -->
             
             <!-- Modal -->
             <div class="modal fade" id="resumePane" tabindex="-1" role="dialog" aria-labelledby="resume" aria-hidden="true">
@@ -145,7 +191,7 @@
                         </div>
                         <div class="modal-body text-dark">
                             <p>Thank you for your interest, choose download for my resum&eacute;.</p>
-                            <p>For my contact information navigate to my contact page from the navbar.</p>
+                            <p>For my contact information <a href="/contact">click here</a>.</p>
                             <p>Sincerely,</p>
                             <p>Mike Hibbard</p>
                         </div>
@@ -174,7 +220,7 @@
                         <p class="media-card-copy">In search of professional experience I approached a local church and coffee house to build a full stack website for them- free of charge.</p>
                         <p class="media-card-copy">After constructing most of the site in Bootstrap, I was not satisfied with the 
                             look and feel of the site. Since I wasn't happy, I knew my client wouldn't be either. So I started over.</p>
-                        <p class="media-card-copy">Without utilizing Bootstrap, my decision to redesign was spot on.</p>
+                        <p class="media-card-copy">Without utilizing Bootstrap, my decision to redesign catalyzed what you see now.</p>
                         <p class="media-card-copy">This project is live and can be found at <a href="http://www.indygrove.church">indygrove.church</a>.</p>
                     </div>
                 </li>
@@ -182,8 +228,7 @@
                 <li class="media">
                     <img class="img-thumbnail" src="images/GroveConstructSplash.PNG" alt="The Grove Church version 1">
                     <div class="media-body">
-                        <p class="media-card-copy">This project is the culmination of my web development skills and it is continuing to teach me more every time I work on it. This full 
-                            stack site is set up with Express and hosted on Linux-based servers.</p>
+                        <p class="media-card-copy">As of January 2019, this project was the culmination of my web development skills.</p>
                         <p class="media-card-copy">Here you see the original design and feel of the website.</p>
                     </div>
                 </li>
@@ -218,6 +263,15 @@
                         <p class="media-card-copy">This app utilizes cross origin sharing of resources with a front end of React and an Express.js backend database and authentication with JWT.</p>
                     </div>
                 </li>
+                <h5 class="sub-header">Memory Game&mdash;React</h5>
+                <li class="media">
+                    <img class="img-thumbnail" src="images/MemoryGame-react.PNG" alt="Memory Game React App">
+                    <div class="media-body">
+                        <p class="media-card-copy">This App is a fun, simple memory matching game, utilizing prop-types and an array shuffling package to handle the random array of colors to match up for each new game.</p>
+                        <p class="media-card-copy">You can find this app depolyed to <a href="https://stormy-retreat-57450.herokuapp.com">heroku</a>.</p>
+                    </div>
+                </li>
+
             </ul>
           
             <div class="third" id="testimonials">
@@ -248,6 +302,19 @@
 
                 </div>
             </div>
+
+            <hr class="my-4">
+
+            <!-- <div>
+                <p>A little about the path I've taken with my skills to get me here in this present circumstance that is not laid out in the about section.</p>
+            </div> -->
+            
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-lg btn-secondary mb-3 animated infinite pulse slow" data-toggle="modal" data-target="#resumePane">
+                    Resum&eacute;
+            </button>
+
+
         </div>
     </div>
 </section>
