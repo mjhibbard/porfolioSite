@@ -1,450 +1,452 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Merienda', 'Merriweather', serif;
-    font-size: 1.5vw;
-    background-color: #dbdbdb;
+  /* font-family: 'Oswald', sans-serif; */
+  font-family: 'Noto Sans HK', sans-serif;
+  /* font-family: 'Merienda', 'Merriweather', serif; */
+  font-size: 1.5vw;
+  background-color: #dbdbdb;
 }
 
 section {
-    position: relative;
-    height: 100%;
-    color: #212529;
+  position: relative;
+  height: 100%;
+  color: #212529;
 }
 .section-title {
-    text-align: center;
-    font-size: 8vw;
-    font-weight: bold;
-    margin: 4vw 0;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 8vw;
+  font-weight: bold;
+  margin: 4vw 0;
 }
 .media {
-    flex-direction: column;
-    margin: 5vw 2vw;
-    align-items: center;
+  flex-direction: column;
+  margin: 5vw 2vw;
+  align-items: center;
 }
 .media-body {
-    width: 100%;
-    margin: 3vw;
+  width: 100%;
+  margin: 3vw;
 }
-.sub-header{
-    font-size: 5vw;
-    font-weight: bold;
-    text-align: center;
+.sub-header {
+  font-family: 'Oswald', sans-serif;
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
 }
 .media-card-copy {
-    font-size: 3vw;
+  font-size: 3vw;
 }
 
 .container {
-    padding: 0;
-    border-radius: 10px;
+  padding: 0;
+  border-radius: 10px;
 }
 
 .white-back {
-    background-color: #fff;
+  background-color: #fff;
 }
 
-.second, .third, .fourth {
-    padding-top: 20vw;
-    margin-top: -17vw;    
+.second,
+.third,
+.fourth {
+  padding-top: 20vw;
+  margin-top: -17vw;
 }
 
 .hero {
-    background-color: rgba(245, 245, 245, 0.1);
-    padding: 10vw 0 3vw 0;
-    position: relative;
-    z-index: 1;
-    height: 100%;
-    color: white;
-    text-align: center;
+  background-color: rgba(245, 245, 245, 0.1);
+  padding: 10vw 0 3vw 0;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  color: white;
+  text-align: center;
 }
 .display-1 {
-    font-size: 12vw;
+  font-size: 12vw;
 }
 .hero-sub-header {
-    font-size: 2.5vw;
-    width: 65%;
-    margin: 0 auto;
+  font-size: 2.5vw;
+  width: 65%;
+  margin: 0 auto;
 }
 
 .image {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    margin: 0;
-    padding: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
 }
 
 .overlay:before {
-    position: absolute;
-    content:" ";
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    display: block;
-    z-index:0;
-    background-color: rgba(0,0,0,0.65);
+  position: absolute;
+  content: ' ';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 /* Navbar styles */
 
 .navbar-link__copy {
-    font-size: 3.5vw;
+  font-size: 3.5vw;
 }
 .nav-link {
-    padding: 0.5vw 1vw;
+  padding: 0.5vw 1vw;
 }
 
 nav.navbar {
-    background-color: whitesmoke;
-    opacity: .88;
+  background-color: whitesmoke;
+  opacity: 0.88;
 }
 
 nav.navbar:hover {
-    opacity: .95;
+  opacity: 0.95;
 }
 
 .fourth li a.nav-link {
-    color: #4A5352;
+  color: #4a5352;
 }
 
 .fourth li a.nav-link:hover,
 .fourth li a.nav-link:active {
-color: #242A2A;
+  color: #242a2a;
 }
 
 .footer {
-    margin-top: 3vw;
-    background-color: rgba(0,0,0,0.65);
-    box-shadow: 0 100vh 0 100vh rgba(0,0,0,0.65);
+  margin-top: 3vw;
+  background-color: rgba(0, 0, 0, 0.65);
+  box-shadow: 0 100vh 0 100vh rgba(0, 0, 0, 0.65);
 }
 
 .footer p {
-    font-size: .75rem;
-    color: white;
+  font-size: 0.75rem;
+  color: white;
 }
 
 .end-link:link,
 .end-link:visited {
-    text-decoration: none;
-    color: #dbdbdb;
+  text-decoration: none;
+  color: #dbdbdb;
 }
 
 .end-link:hover,
 .end-link:active {
-    color: #044485;
+  color: #044485;
 }
 
 .connect a i {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .connect {
-    transition: all .2s;
+  transition: all 0.2s;
 }
 
 .connect:link,
 .connect:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .connect:hover {
-    transition: all .4s;
-    transform: translateY(-5px);
-    text-shadow: 0 15px 25px rgba(0,0,0,0.4);
+  transition: all 0.4s;
+  transform: translateY(-5px);
+  text-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
 }
 
 .connect:active {
-    transition: all .4s;
-    transform: translateY(-2px);
-    text-shadow: 0 7px 17px rgba(0,0,0,0.4);
+  transition: all 0.4s;
+  transform: translateY(-2px);
+  text-shadow: 0 7px 17px rgba(0, 0, 0, 0.4);
 }
 
 .section__wrap {
-    margin: 2vw;
-    padding: 2vw 2vw 3vw 2vw;
-
+  margin: 2vw;
+  padding: 2vw 2vw 3vw 2vw;
 }
 .section-subtitle {
-    font-size: 3vw;
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
+  font-size: 3vw;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
 }
 .section-subtitle__margin {
-    margin-bottom: 3vw;
+  margin-bottom: 3vw;
 }
 
 /* About Section card styles */
 
 .about-card__wrap {
-    display: flex;
-    justify-content: center;
-    margin: 4vw 0;
-    width: 100%;
-    padding: 2%;
-    box-shadow: 0 1vw 1vw 0 #dbdbdb;
+  display: flex;
+  justify-content: center;
+  margin: 4vw 0;
+  width: 100%;
+  padding: 2%;
+  box-shadow: 0 1vw 1vw 0 #dbdbdb;
 }
 .about-card__img {
-    display: inherit;
-    background-repeat: no-repeat;
-    width: 40%;
+  display: inherit;
+  background-repeat: no-repeat;
+  width: 40%;
 }
 .about-card__copy {
-    display: inherit;
-    width: 60%;
-    font-size: 1.5vw;
-    padding: 2%;
+  display: inherit;
+  width: 60%;
+  font-size: 1.5vw;
+  padding: 2%;
 }
 
 /* Testimoninal styles */
 
 .testimonial-cards__wrapper {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    margin: 5vw auto;
-    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 5vw auto;
+  width: 100%;
 }
 .testimonial-card__wrap {
-    width: 75%;
-    padding: 4%;
-    box-shadow: 0 0.5vw 2.5vw 0 #dbdbdb;
-    margin: 5vw auto;
+  width: 75%;
+  padding: 4%;
+  box-shadow: 0 0.5vw 2.5vw 0 #dbdbdb;
+  margin: 5vw auto;
 }
 .testimonial__card-img {
-    height: 45vw;
-    width: 100%;
-    border-radius: 10%;
-    margin: auto;
+  height: 45vw;
+  width: 100%;
+  border-radius: 10%;
+  margin: auto;
 }
 .testimonial__card-img-1 {
-    background: url("../images/nick-photo-theft.jpg") center center/cover no-repeat;
+  background: url('../images/nick-photo-theft.jpg') center center/cover
+    no-repeat;
 }
 .testimonial__card-img-2 {
-    background: url("../images/amandabaptism.jpg") center center/cover no-repeat;
+  background: url('../images/amandabaptism.jpg') center center/cover no-repeat;
 }
 .testimonial__card-copy-wrap {
-    width: 100%;
-    padding-top: 3vw;
+  width: 100%;
+  padding-top: 3vw;
 }
 .testimonial__card-name {
-    font-size: 3.5vw;
-    padding-bottom: 3vw;
+  font-size: 3.5vw;
+  padding-bottom: 3vw;
 }
 .testimonial__card-copy {
-    font-size: 2.5vw;
+  font-size: 2.5vw;
 }
 
 /* Skills section styles */
 
 .skills-table__copy {
-    font-size: 2.5vw;
-    list-style: none;
-    margin: 2vw 0;
+  font-size: 2.5vw;
+  list-style: none;
+  margin: 2vw 0;
 }
 .skills-table-tabs__copy {
-    font-size: 3.0vw;
+  font-size: 3vw;
 }
 .skills-section-img {
-    height: 8vw;
-    
+  height: 8vw;
 }
 .skill-medal__wrap {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 3vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3vw;
 }
 .skill-medal-img__wrap {
-    
-    align-self: center;
+  align-self: center;
 }
 /* Contact page styles */
 .tab {
-    text-indent: 5%;
-    overflow: hidden;
+  text-indent: 5%;
+  overflow: hidden;
 }
 .more-tab {
-    transform: translateX(5%);
-    overflow: hidden;
+  transform: translateX(5%);
+  overflow: hidden;
 }
 .reduced-line-spacing {
-    line-height: 1;
-    padding-bottom: 1.25vw;
-    margin-bottom: 0;
+  line-height: 1;
+  padding-bottom: 1.25vw;
+  margin-bottom: 0;
 }
 .even-more-tab {
-    transform: translateX(15%);
-    width: 90%;
-    overflow: hidden;
+  transform: translateX(15%);
+  width: 90%;
+  overflow: hidden;
 }
 .extra-more-tab {
-    transform: translateX(20%);
-    width: 80%;
-    overflow: hidden;
+  transform: translateX(20%);
+  width: 80%;
+  overflow: hidden;
 }
 .bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 .green {
-    color: #009999;
+  color: #009999;
 }
 .command-line {
-    width: 100%;
-    margin: 3vw;
-    background: #1a1a1a;
-    color: white;
-    padding: 2vw;
-    border: 1vw solid lightgray;
-    box-shadow: 0vw 0vw 2vw 0vw black;
+  width: 100%;
+  margin: 3vw;
+  background: #1a1a1a;
+  color: white;
+  padding: 2vw;
+  border: 1vw solid lightgray;
+  box-shadow: 0vw 0vw 2vw 0vw black;
 }
 .consolas {
-    font-family: 'Consolas', Courier, monospace;
+  font-family: 'Consolas', Courier, monospace;
 }
 
-
-
 @media (min-width: 576px) {
-    /* #hero {
+  /* #hero {
         padding-top: 10vh;
     } */
-    .media {
-        flex-direction: column;
-    }
-    .media-card-copy {
-        font-size: 2.25vw;
-    }
-    .section-title {
-        font-size: 5vw;
-    }
-    .display-1 {
-        font-size: 8vw;
-    }
-    .testimonial-cards__wrapper {
-        flex-direction: column;
-    }
-    .navbar-link__copy {
-        font-size: 3.0vw;
-    }
-    .skills-table-tabs__copy {
-        font-size: 2.5vw;
-    }
-    .skills-table__copy {
-        font-size: 2vw;
-    }
-    .section-subtitle {
-        font-size: 2.5vw;
-    }
-    .skills-section-img {
-        height: 6vw;
-      }
+  .media {
+    flex-direction: column;
+  }
+  .media-card-copy {
+    font-size: 2.25vw;
+  }
+  .section-title {
+    font-size: 7vw;
+  }
+  .display-1 {
+    font-size: 8vw;
+  }
+  .testimonial-cards__wrapper {
+    flex-direction: column;
+  }
+  .navbar-link__copy {
+    font-size: 3vw;
+  }
+  .skills-table-tabs__copy {
+    font-size: 2.5vw;
+  }
+  .skills-table__copy {
+    font-size: 2vw;
+  }
+  .section-subtitle {
+    font-size: 2.5vw;
+  }
+  .skills-section-img {
+    height: 6vw;
+  }
 }
 
 @media (min-width: 768px) {
-    .navbar-link__copy {
-        font-size: 2.5vw;
-    }
-    .media {
-        flex-direction: row;
-    }
-    .media--who {
-        flex-direction: column;
-    }
-    .keep-column {
-        flex-direction: column;
-    }
-    .command-line {
-        width: 75%;
-    }
-    .img-thumbnail {
-        max-width: 45%;
-    }
-    .img-profile {
-        max-width: 60%;
-    }
-    .sub-header {
-        font-size: 3vw;
-    }
-    .media-card-copy {
-        font-size: 1.5vw;
-    }
-    .testimonial-cards__wrapper {
-        flex-direction: row;
-    }
-    .testimonial-card__wrap {
-        width: 40%;
-        padding: 2%;
-        margin: unset;
-    }
-    .testimonial__card-img {
-        height: 15vw;
-        width: 60%;
-    }
-    .testimonial__card-name {
-        font-size: 2.25vw;
-        padding-bottom: 1vw;
-    }
-    .testimonial__card-copy {
-        font-size: 1.5vw;
-    }
-    .skills-table__copy {
-        font-size: 1.5vw;
-    }
-    .skills-table-tabs__copy {
-        font-size: 2.5vw;
-    }
-    .section-subtitle {
-        font-size: 2vw;
-    }
-    .skills-section-img {
-        height: 8.5vw;
-      }
+  .navbar-link__copy {
+    font-size: 2.5vw;
+  }
+  .media {
+    flex-direction: row;
+  }
+  .media--who {
+    flex-direction: column;
+  }
+  .keep-column {
+    flex-direction: column;
+  }
+  .command-line {
+    width: 75%;
+  }
+  .img-thumbnail {
+    max-width: 45%;
+  }
+  .img-profile {
+    max-width: 60%;
+  }
+  .sub-header {
+    font-size: 4vw;
+  }
+  .media-card-copy {
+    font-size: 1.5vw;
+  }
+  .testimonial-cards__wrapper {
+    flex-direction: row;
+  }
+  .testimonial-card__wrap {
+    width: 40%;
+    padding: 2%;
+    margin: unset;
+  }
+  .testimonial__card-img {
+    height: 15vw;
+    width: 60%;
+  }
+  .testimonial__card-name {
+    font-size: 2.25vw;
+    padding-bottom: 1vw;
+  }
+  .testimonial__card-copy {
+    font-size: 1.5vw;
+  }
+  .skills-table__copy {
+    font-size: 1.5vw;
+  }
+  .skills-table-tabs__copy {
+    font-size: 2.5vw;
+  }
+  .section-subtitle {
+    font-size: 2vw;
+  }
+  .skills-section-img {
+    height: 8.5vw;
+  }
 }
 
 @media (min-width: 992px) {
-    .navbar-link__copy {
-        font-size: 1.75vw;
-    }
-    .media-card-copy {
-        font-size: 1.25vw;
-    }
-    .media--who {
-        flex-direction: row;
-    }
-    .skills-table-tabs__copy {
-        font-size: 2.25vw;
-    }
-    .skills-section-img {
-        height: 8vw;
-      }
+  .navbar-link__copy {
+    font-size: 1.75vw;
+  }
+  .media-card-copy {
+    font-size: 1.25vw;
+  }
+  .media--who {
+    flex-direction: row;
+  }
+  .skills-table-tabs__copy {
+    font-size: 2.25vw;
+  }
+  .skills-section-img {
+    height: 8vw;
+  }
 }
 @media (min-width: 1200px) {
-    .navbar-link__copy {
-        font-size: inherit;
-    }
-    .skills-section-img {
-        height: 6vw;
-      }
+  .navbar-link__copy {
+    font-size: inherit;
+  }
+  .skills-section-img {
+    height: 6vw;
+  }
 }
 @media (min-width: 1485px) {
-    .media--who {
-        flex-direction: column;
-    }
-    .navbar-link__copy {
-        font-size: inherit;
-    }
-    .skills-table-tabs__copy {
-        font-size: 2vw;
-    }
-    .skills-section-img {
-        height: 6vw;
-      }
+  .media--who {
+    flex-direction: column;
+  }
+  .navbar-link__copy {
+    font-size: inherit;
+  }
+  .skills-table-tabs__copy {
+    font-size: 2vw;
+  }
+  .skills-section-img {
+    height: 4vw;
+  }
 }
