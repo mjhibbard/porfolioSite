@@ -265,8 +265,14 @@ nav.navbar:hover {
 }
 .skill-medal__wrap {
   display: flex;
+  flex-direction: column;
+  height: 20vh;
   justify-content: space-between;
   margin-bottom: 3vw;
+}
+.skill-medal-wrapper__three {
+  display: flex;
+  justify-content: space-around;
 }
 .skill-medal-img__wrap {
   align-self: center;
