@@ -2,7 +2,7 @@
   "name": "porfoliosite",
   "version": "1.0.0",
   "description": "Resume site for employment search",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon index.js"
