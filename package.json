@@ -4,6 +4,7 @@
   "description": "Resume site for employment search",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "dev": "nodemon index.js"
   },
   "repository": {
