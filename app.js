@@ -1,9 +1,9 @@
-const http = require("http");
+//const http = require("http");
 const express = require("express");
 const path = require("path");
 const hostname = "127.0.0.1";
 const PORT = process.env.PORT || 3000;
-const server = http.createServer(express());
+//const server = http.createServer(express());
 
 express()
   //App Config
