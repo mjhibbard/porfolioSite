@@ -1,7 +1,7 @@
 //const http = require("http");
 const express = require("express");
 const path = require("path");
-const hostname = "127.0.0.1";
+//const hostname = "127.0.0.1";
 const PORT = process.env.PORT || 3000;
 //const server = http.createServer(express());
 
@@ -21,6 +21,6 @@ express()
     })
   )
   .get("*", (req, res) => res.redirect("/"))
-  .listen(PORT, hostname, () => {
-    console.log(`Server running at http://${hostname}:${PORT}/`);
+  .listen(PORT, () => {
+    console.log(`Server running on ${PORT}/`);
   });
